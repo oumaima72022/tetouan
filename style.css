@@ -1,0 +1,240 @@
+html{
+    scroll-behavior: smooth
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+body{
+    font-family:'Advent pro', sans-serif;
+    padding:0;
+    margin:0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0,5cm;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* *****************NAVBAR****************** */
+nav{
+    overflow: hidden;
+    background-color: rgb(218, 219, 146);
+    position: fixed;
+    width: 100%;
+    opacity: 0,9;
+}
+header li {
+    float: right;
+    font-size: 1,2em;
+    padding: 18px 16px;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    
+}
+#logo {
+    color: rgba(168, 149, 37, 0.822);
+    font-family:Segoe Print
+    ;
+    float: left;
+    font-weight: bold;
+}
+/* * *****************image principale****************** * */
+#imagePrincipale{
+    padding-top: 80px;
+    background-image : url(support-projet-1-master/media/image-principale\ \(4\).jpg)  ;
+    
+    background size: cover ;
+    height: 799px;
+
+
+}
+h1{
+    font-family: 'Advent Pro', sans-serif ;
+    text-align: center;
+    color:antiquewhite;
+    font-size: 4em;
+    margin-top: 40px;
+    text-shadow: 1px 3px 2px black;
+    
+}
+#premiertrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto; 
+    background-color: #fffaef;
+    box-shadow: 1px 3px 2px black;
+
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+
+}
+/* * *****************PRESENTATION****************** * * */
+
+
+#PRESENTATION{
+    background-color: #fffaef;
+    padding: 10px 0px 50px 0;
+
+}
+#Textintro{
+
+    padding: 0px 20%;
+    
+
+}
+#PRESTATION{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesprestation h4{
+    font-family:'dancing script' cursive
+    ;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 15px;
+    font-weight: 200;
+
+}
+.imagesprestation img{
+border-radius: 10px;
+box-shadow: 5px 5px 3px 1px rgb(0, 0, 0,7);
+
+
+}
+.imagesprestation img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+ 
+/* * * *****************TOURISME****************** * * * */
+#TOURISME{
+    height: 1400px;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+}
+#TOURISME h2{
+padding-top: 60px;
+
+}
+#BABOKLA{
+    background: url(support-projet-1-master/media/download.jpg);}
+
+
+#lemuséeethnographique{
+    background: url(support-projet-1-master/media/download\ \(2\).jpg);}
+
+
+#AINZARKA{
+    background: url(support-projet-1-master/media/ain\ zarka.jpg);}
+
+
+#BOUANANE{
+    background: url(support-projet-1-master/media/AIN\ BOANAN.jpg);}
+ #TOURISME li{
+        margin: 30px 50px 0 50px;
+        height: 226px;
+        width: 40%;
+        max-width: 550px;
+        float: left;
+        box-shadow: 6px 6px 28px -1px rgb(0, 0, 0,75);
+        
+    }
+    #TOURISME p{
+        height: 45px;
+        width: 235px;
+        background-color: rgb(4, 184, 109);
+        float: right;
+        margin: 50px -180px 0 0;
+        font-size: 1.02em;
+        text-align: center;
+        padding-top: 15px;
+        box-shadow: 4px 4px 0 1px rgb(90, 160, 44);
+
+    }
+
+
+#TOURISME #lemuséeethnographique, #TOURISME #BOUANANE{
+    float: right;
+}
+#lemuséeethnographique P, #BOUANANE P{
+    float: left;
+    background-color: cyan;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0 1px royalblue;
+}
+/* * * * *****************FOOTER****************** * * * * */
+footer{
+    background-color: rgba(80, 42, 15, 0.87);
+    color: #f1f2f6;
+    padding: 10px 0 20px 0 ;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input,textarea,button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1,2em;
+    font-family:'advent pro', sans sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1,2em;
+    background-color: #f1f2f6;
+}
+button:hover{
+    background-color: red;
+    color: #f1f2f6;
+    cursor: pointer;
+    transition: 0,3s ease-in-out;
+}
+#DEUXIEMETRAIT{
+    height: 1px;
+    width: 75%;
+    background-color: #f1f2f6;
+    margin: 60px auto;
+
+}
+#COPYRIGHTETICONS{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+
+}
+#COPYRIGHT{
+    width: 50%;
+    text-align: left;
+    color: #f1f2f6;
+}
